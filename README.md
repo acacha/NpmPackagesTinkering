@@ -318,6 +318,8 @@ Tools for (BUNDLING assets) come in a variety of shapes and sizes:
 
 ### WEBPACK / LARAVEL MIX:
 
+ https://laracasts.com/series/webpack-for-everyone
+
 Project structure:
 
 ```
@@ -375,6 +377,14 @@ this === global
 
 https://nodejs.org/api/globals.html
 
+# Javascript packags Local development
+
+## npm link
+
+Problems: webpack problems with links
+
+## Laravel mix
+
 # BABEL:
 
 https://www.sitepoint.com/javascript-modules-bundling-transpiling/
@@ -384,6 +394,22 @@ https://www.sitepoint.com/javascript-modules-bundling-transpiling/
 - https://www.sitepoint.com/javascript-modules-bundling-transpiling/
 
 ## Laravel mix:
+
+```
+mix.js('resources/assets/js/app.js', 'public/js')
+   .js('resources/assets/js/app-landing.js', 'public/js/app-landing.js')
+  .sourceMaps()
+  .webpackConfig({
+    resolve: {
+      modules: [
+        path.resolve(__dirname, './relationships/resources/assets/js'),
+        path.resolve(__dirname, 'node_modules')
+      ]
+    }
+```
+
+**Resources**
+- https://github.com/acacha/relationships-test/blob/master/webpack.mix.js
 
 # Vue
 
