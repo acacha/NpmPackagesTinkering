@@ -1,1 +1,4 @@
-console.log('Hello World!')
+// GLOBAL VARIABLE
+hello = function() {
+  console.log('Hello world');
+}
