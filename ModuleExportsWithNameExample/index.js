@@ -1,10 +1,10 @@
 // NODE.JS -> COMMON.js
-var hello = require('./src/hello.js').hello
+var hello = require('./src/hello').hello
 
 hello()
 
-var pepito = require('./src/hello.js').pepito
+var pepito = require('./src/hello').pepito
 
 pepito()
 
-require('./src/hello.js').hello()
+require('./src/hello').hello()

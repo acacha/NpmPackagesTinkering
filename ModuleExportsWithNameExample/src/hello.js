@@ -5,3 +5,5 @@ exports.hello = function () {
 exports.pepito = function () {
   console.log('Hola pepito!');
 }
+
+exports.var = "PROVA"
