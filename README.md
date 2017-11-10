@@ -153,6 +153,47 @@ A module is anything that can be loaded with require() in a Node.js program. The
 - A folder with an index.js file in it.
 - A JavaScript file.
 
+## MODULE PATTERNS
+
+SIMPLEST MODULE
+
+https://darrenderidder.github.io/talks/ModulePatterns/#/2
+
+DEFINE A GLOBAL
+
+https://darrenderidder.github.io/talks/ModulePatterns/#/4
+
+EXPORT AN ANONYMOUS FUNCTION
+
+https://darrenderidder.github.io/talks/ModulePatterns/#/6
+
+EXPORT A NAMED FUNCTION
+
+https://darrenderidder.github.io/talks/ModulePatterns/#/7
+
+EXPORT OBJECTS:
+
+https://darrenderidder.github.io/talks/ModulePatterns/#/8
+https://darrenderidder.github.io/talks/ModulePatterns/#/9
+
+JAVASCRIPT MODULE PATTERN
+
+```
+(function () {
+  // ... all vars and functions are in this scope only
+  // still maintains access to all globals
+}());
+```
+
+http://acacha.org/mediawiki/Javascript#Javascript_module_pattern
+
+## module.exports VS exports
+
+ https://medium.freecodecamp.org/node-js-module-exports-vs-exports-ec7e254d63ac
+ 
+**Resources**
+- https://darrenderidder.github.io/talks/ModulePatterns/
+
 ## NODE_MODULES FOLDER
 
 - Local install (default): puts stuff in ./node_modules of the current package root.
