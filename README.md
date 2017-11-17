@@ -254,7 +254,22 @@ https://medium.com/dailyjs/npm-and-the-front-end-950c79fc22ce
 
 ## SEMVER
 
-https://docs.npmjs.com/getting-started/semantic-versioning
+- https://docs.npmjs.com/getting-started/semantic-versioning
+- http://semver.org/
+- http://acacha.org/mediawiki/Versioning#Semantic_versioning
+
+ MAJOR.MINOR.PATCH 
+ 
+ per exemple 2.1.1
+ 
+S'ha de modificar cada una de les parts quan:
+
+- MAJOR quan és fan canvis incompatibles a la API
+- MINOR quan s'afegeix funcionalitat de forma backwards-compatible (compatible cap endarrera)
+- PATCH quan es corregeixen errors/bugs de forma backwards-compatible (no hi ha noves funcionalitats)
+
+CHANGELOG
+
 
 # USING NODE.JS in BROWSERS - MODULE BUNDLING TRANSPILING
 
