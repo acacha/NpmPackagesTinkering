@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cc6b504-36e4-4e63-b405-9d50a9f03d5a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hello/acacha-ng-hello-test-webpack/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hello/acacha-ng-hello-test/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/hello/acacha-ng-hello/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="0cc6b504-36e4-4e63-b405-9d50a9f03d5a" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -364,12 +358,12 @@
       <workItem from="1510317596797" duration="6055000" />
       <workItem from="1510324252544" duration="8456000" />
       <workItem from="1510774525775" duration="2431000" />
-      <workItem from="1510928042168" duration="4082000" />
+      <workItem from="1510928042168" duration="4119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21024000" />
+    <option name="totallyTimeSpent" value="21061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="-4" width="1855" height="1084" extended-state="6" />
