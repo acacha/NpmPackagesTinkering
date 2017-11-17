@@ -49,7 +49,9 @@ REQUIRE
 - LA RESTA: nom de mòdul
 
 History:
-- The JavaScript language didn’t have a native way of organizing code before the ES2015 standard. Node.js filled this gap with the CommonJS module format. In this article we will learn about how the Node.js module system works, how you can organize your modules and what does the new ES standard means for the future of Node.js.
+- The JavaScript language didn’t have a native way of organizing code before the ES2015 standard. 
+Node.js filled this gap with the CommonJS module format. 
+In this article we will learn about how the Node.js module system works, how you can organize your modules and what does the new ES standard means for the future of Node.js.
 
 #### IOC INVERSION OF CONTROL CONTAINER
 
