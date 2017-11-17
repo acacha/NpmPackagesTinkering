@@ -669,7 +669,7 @@ module.exports = function surround(str, wrapper) {
 
 var hello = __webpack_require__(23)
 
-hello.hello('Sergi')
+hello.hello(' Sergi Tur Badenas que tal')
 
 
 

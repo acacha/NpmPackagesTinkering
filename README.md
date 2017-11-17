@@ -251,6 +251,10 @@ Magically scoped!
 
 https://medium.com/dailyjs/npm-and-the-front-end-950c79fc22ce
 
+# WEBPACK
+
+https://webpack.github.io/docs/tutorials/getting-started/
+https://laracasts.com/series/webpack-for-everyone
 
 ## SEMVER
 
